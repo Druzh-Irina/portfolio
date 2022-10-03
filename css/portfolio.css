@@ -18,12 +18,12 @@
 }
 
 .portfolio__desc-items {
-  margin-bottom: 40px;
   padding: 5px 25px;
   list-style: initial;
 }
 
 .portfolio__desc-item {
+  margin-bottom: 20px;
   line-height: 1.9;
   font-size: 20px;
 }
