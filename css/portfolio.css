@@ -1,110 +1,29 @@
 .portfolio {
   width: 100%;
-  min-height: 100vh;
   margin: 0 auto;
 }
 
 .portfolio__wrapper {
   width: 90%;
-  padding: 40px 0 20px;
+  padding: 60px 0 0;
   margin: 0 auto;
   box-sizing: border-box;
 }
 
 .portfolio__title {
   text-align: center;
-  margin-bottom: 35px;
+  margin-bottom: 30px;
   font-size: 32px;
   color: #FF5722;
 }
 
-.portfolio__post {
-  display: flex;
-  max-width: 100%;
+.portfolio__desc-items {
   margin-bottom: 40px;
-  border-radius: 10px;
-  overflow: hidden;
-  background-color: #fff;
-  transition: all 0.3s ease;
-  box-shadow: 0 1px 1px 0 rgba(31, 35, 46, 0.15);
+  padding: 5px 25px;
+  list-style: initial;
 }
 
-.portfolio__post:hover {
-  transform: translate(0px, -2px);
-  box-shadow: 0 15px 45px -10px rgba(10, 16, 34, 0.2);
-}
-
-@media (max-width: 680px) {
-  .portfolio__post {
-    flex-wrap: wrap;
-    min-width: 320px;
-  }
-
-  .post__image-contaner {
-    margin: 0 auto;
-  }
-}
-
-.post__image {
-  display: block;
-  max-width: 320px;
-  width: 320px;
-  height: 250px;
-}
-
-.post__image:hover {
-  filter: contrast(70%);
-}
-
-.post__image:active {
-  filter: contrast(50%);
-}
-
-.post__content {
-  padding: 17px 0 10px 15px;
-  box-sizing: border-box;
-  flex-grow: 1;
-}
-
-.post__title {
-  margin-bottom: 10px;
-  font-size: 18px;
-  color: #374054;
-}
-
-.post__link-title {
-  text-decoration: none;
-  font-style: italic;
-  color: #FF5722;
-}
-
-.post__item {
-  line-height: 1.4;
-  overflow: hidden;
-}
-
-.post__item:before {
-  content: "—"; /* Сам маркер */
-  padding-right: 10px; /* Расстояние от маркера до текста */
- }
-
-.post__link-item {
-  text-decoration: none;
-  font-style: italic;
-  color: #69747c;
-}
-
-.post__text {
-  margin-top: 10px;
-}
-
-.post__link-text {
-  text-decoration: none;
-  font-style: italic;
-  color: red;
-}
-
-.post__link-text:hover,
-.post__link-item:hover {
-  color: #FF5722;
+.portfolio__desc-item {
+  line-height: 1.9;
+  font-size: 20px;
 }
